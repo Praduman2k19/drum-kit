@@ -1,0 +1,197 @@
+body
+{
+    text-align: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    /* background: rgb(95, 53, 27); */
+}
+.title
+{
+    font-size: 680%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(17, 4, 4);
+    text-shadow: 2.5px 5.5px 5.5px rgb(245, 247, 246);
+}
+
+#footer
+{
+    
+    position: sticky;
+    background-color: rgb(14, 15, 10);
+    color: white;
+}
+.drum
+{ 
+    cursor: pointer; 
+    margin: 85px 10px 0px 10px;
+
+    font-style: italic;
+    font-size: 50px;
+    height: 190px;
+    width: 12%;
+    color: rgb(214, 208, 208);
+    border-radius: 10px;
+    /* border-color: rgb(92, 75, 153);
+    border-style: groove; 
+     border-width: 5px;*/
+     border: none;
+    background: rgb(250, 251, 252);
+    text-shadow: 4.5px 5.5px 4.5px rgb(201, 96, 96);
+    box-shadow: rgba(0, 0, 0, 0.2) -3px 8px 10px, rgba(0, 0, 0, 0.2) 3px -3px 10px;
+}
+.drum:hover
+{
+    color: rgb(65, 66, 65);
+}
+.drum:active{
+    box-shadow:black 6px 6px 6px ;
+}
+table
+{
+    width: 80%;
+}
+#pic1
+{
+    
+   width: 100px;
+   height: 100px;
+   border-radius: 50%; 
+}
+#icon1
+{   
+    
+    border-radius: 50%;
+    padding-top: 10px;
+    width :200px;
+    height: 200px;
+    border-radius: 50%;
+}
+#pic2
+{
+   height:100%;
+   width: 100%;
+}
+#name
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+td
+{
+    text-align: left;
+}
+#icon
+{
+    height: 20px;
+    width: 20px;
+}
+.W 
+{
+    background-image: url(image_drum_kit/d26.png);
+    background-size: 180px;
+    background-repeat:no-repeat;
+}
+.A
+{ 
+    background-image: url(image_drum_kit/drumpic1.jpg);
+    background-size: cover;
+    background-repeat:no-repeat;
+}
+.S 
+{
+    background-image: url(image_drum_kit/d25.png);
+    background-size: 200px;
+    background-repeat:no-repeat;
+}
+.D
+{
+background-image: url(image_drum_kit/drumpic7.jpg);
+background-size: cover;
+background-repeat:no-repeat;
+
+}
+.J
+{
+    background-image: url(image_drum_kit/d22.png);
+    background-size: 200px;
+    background-repeat:no-repeat;
+}
+.K
+{
+    background-image: url(image_drum_kit/d24.png);
+    background-size: 180px;
+    background-repeat:no-repeat;
+}
+.L
+{
+    background-image: url(image_drum_kit/d21.png);
+    background-size: 190px;
+    background-repeat:no-repeat;
+}
+
+.pressed
+{
+    box-shadow: rgb(76, 12, 226);
+    opacity:.2;
+}
+a:hover
+{
+    color: blue;
+}
+.description
+{
+    font-style: italic;
+    color: rgb(61, 44, 44);
+    text-align: justify;
+    font-size: 18pt;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.itom{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-radius: 5px;
+    padding:0px 20px;
+    width:310px;
+    margin: 20px 10px;
+    font-size: 14pt;
+    box-shadow:  rgb(114, 114, 121,.2) 2px 2px 10px, rgba(114, 114, 121, 0.2) -2px -2px 10px;
+}
+.description b
+{
+    font-size: 20pt;
+  
+}
+/* @media only screen and (max-screen-width: 900px) 
+{
+    .itom{
+        width: max-content;
+    }
+  .title
+  {
+  font-size: 430%;
+  }
+}
+
+ */
+
+@media only screen and (max-width: 1000px) 
+{
+    .drum
+    {
+        height: 190px;
+        width:190px;
+        
+    }
+  .title
+  {
+  font-size: 430%;
+  }
+  .itom{
+    width: 920px;
+}
+}
